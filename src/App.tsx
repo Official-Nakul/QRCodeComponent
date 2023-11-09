@@ -1,9 +1,11 @@
 import "./App.css";
+import imgurl from "./assets/qrCode.jpg";
 function App() {
+  // document.querySelector(".qrImg").src = imgurl;
   return (
     <>
       <div className="cardBody">
-        <img src={"src/qrCode.jpg"} alt="" className="qrImg" />
+        <img src={imgurl} alt="" className="qrImg" />
         <p className="heading">
           Improve your front-end skills by building projects
         </p>
